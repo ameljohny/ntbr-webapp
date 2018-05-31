@@ -1,21 +1,79 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<!-- Main navigation -->
+<header>
+  
+<mdb-navbar SideClass="navbar navbar-expand-lg  fixed-top ">
+    <links>
+        <ul class="navbar-nav ml-auto " id="horizontalNav">
+            <li class="nav-item active">
+                <a  class="nav-link waves-light" href="" mdbWavesEffect>Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" href="" mdbWavesEffect>About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" href="" mdbWavesEffect>Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" href="" mdbWavesEffect>Gallery</a>
+            </li>
+
+            <li class="nav-item booking">
+                <a id="button-buy " class="navbar-text" href="" mdbWavesEffect>Buy Tickets</a>
+            </li>
+
+        </ul>
+
+    </links>
+</mdb-navbar>
+  <!-- Full Page Intro -->
+  <div class="view">
+    <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay muted loop>
+      <source src="http://ec2-18-222-53-208.us-east-2.compute.amazonaws.com:8000/assets/backgroundvideo.mp4" type="video/mp4">
+    </video>
+    <div class="mask" style="background: #15151e; height: 100%;width: 100%;opacity:0.2;"></div>
+    <!-- Mask & flexbox options-->
+    <div class="mask  d-flex justify-content-center align-items-center">
+      <!-- Content -->
+      <div class="contnt">
+      <div class="eventinfo">
+
+        <div class="cnt">
+  
+          <h2 class="ntbr">
+            <span id="Nehru">NEHRU TROPHY</span>
+            <br>BOAT RACE</h2>
+        </div>
+  
+        <div class="dte">
+          <h1 class="dtebox">AUG
+            <br>
+            <span class="num">11</span>
+          </h1>
+          <h1 class="lake">PUNNAMADA LAKE</h1>
+  
+        </div>
+  
+      </div>
+  
+      <hr>
+  
+      <p class="pagecnt">Official website of
+        <b>The Nehru Trophy Boat Race 2018</b>
+      </p>
+    </div>
+    <span class="sx">
+      <b>66
+        <sup class="sups">th</sup>edition</b>
+    </span>
+      <!-- Content -->
+    </div>
+    <!-- Mask & flexbox options-->
+
+  </div>
+  <!-- Full Page Intro -->
+
+</header>
+
+
 
 <router-outlet></router-outlet>
