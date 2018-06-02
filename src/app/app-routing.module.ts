@@ -2,9 +2,10 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { VideoBackgroundComponent } from './video-background/video-background.component';
 import { AboutModule } from './about/about.module';
+import { ContactModule } from './contact/contact.module';
 
 const routes: Routes = [
-
+  { path: '', redirectTo: 'Home', pathMatch: 'full' },
   {
     path: 'Home',
     component: VideoBackgroundComponent
@@ -13,7 +14,10 @@ const routes: Routes = [
     path: 'About',
     loadChildren: () => AboutModule
   },
-  { path: '', redirectTo: 'Home', pathMatch: 'full' },
+  {
+    path: 'Contact',
+    loadChildren: () => ContactModule
+  }
 ];
 
 
