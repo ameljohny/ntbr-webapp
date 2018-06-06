@@ -11,29 +11,29 @@ const routes: Routes = [
   {
     path: 'Contact',
     component: ContactPageComponent,
-    children: [
-      {
-        path: '',
-        component: ContactWtcComponent,
-        pathMatch: 'full'
-      },
-      {
-        path: 'contactfeedback',
-        component: ContactFeedbackComponent,
-      },
-      {
-        path: 'contactdod',
-        component: ContactDodComponent,
-      },
-      {
-        path: 'contactwtc',
-        component: ContactWtcComponent,
-      },
-      {
-        path: 'contactlocation',
-        component: ContactLocationComponent,
-      }
-    ]
+    // children: [
+    //   {
+    //     path: '',
+    //     component: ContactWtcComponent,
+    //     pathMatch: 'full'
+    //   },
+    //   {
+    //     path: 'contactfeedback',
+    //     component: ContactFeedbackComponent,
+    //   },
+    //   {
+    //     path: 'contactdod',
+    //     component: ContactDodComponent,
+    //   },
+    //   {
+    //     path: 'contactwtc',
+    //     component: ContactWtcComponent,
+    //   },
+    //   {
+    //     path: 'contactlocation',
+    //     component: ContactLocationComponent,
+    //   }
+    // ]
   }
 ];
 

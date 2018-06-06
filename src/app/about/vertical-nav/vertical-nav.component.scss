@@ -1,4 +1,13 @@
 .verticalnav{
+    visibility: hidden;
+}
+
+@media screen and (min-width:1205px){
+
+.verticalnav{
+    position: absolute;
+    top: 0;
+    right: 0;
     height: 100%;
     width: 25vw;
     background-color: rgba(14, 14, 17, 0.747);
@@ -11,7 +20,8 @@
     flex-flow: column  nowrap;
     justify-content: center;
     align-self: center;
-    align-items:flex-start;   
+    align-items:flex-start;  
+    visibility: visible; 
 
 }
 
@@ -56,4 +66,6 @@
 }
 #li1:hover, #li2:hover, #li3:hover, #li4:hover{
     color: rgb(79, 248, 248);
+}
+
 }

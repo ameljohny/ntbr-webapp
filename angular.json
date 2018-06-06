@@ -36,6 +36,7 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/fullpage.js/dist/jquery.fullpage.js",
               "node_modules/flipclock/dist/flipclock.min.js"
 
             ]

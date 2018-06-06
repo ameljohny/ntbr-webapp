@@ -1,3 +1,12 @@
+
+.verticalnav{
+    display: none;
+}
+
+
+@media screen and (min-width: 1205px){
+
+
 .verticalnav{
     height: 100%;
     width: 25vw;
@@ -56,4 +65,5 @@
 }
 #li1:hover, #li2:hover, #li3:hover, #li4:hover{
     color: rgb(79, 248, 248);
+}
 }

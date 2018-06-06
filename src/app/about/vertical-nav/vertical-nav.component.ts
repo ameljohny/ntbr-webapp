@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare var $;
 @Component({
   selector: 'ntbr-vertical-nav',
   templateUrl: './vertical-nav.component.html',
@@ -10,6 +10,7 @@ export class VerticalNavComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
